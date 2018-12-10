@@ -11,6 +11,8 @@ type,
              into last sentense
      hit key Ctrl+x to exit and hit key y to save
 - apt-get update
+- if error about invalid key, type this..->  wget -q -O - https://archive.kali.org/archive-key.asc | apt-key add
+- press enter
 - apt-get install gnome ... to use gnome envirenment ... size up to 2 GB installation .. take a lot of time to download ..
      hit q to quit note, hit enter to select display manager, it show gdm3 and lightdm .. select one of them..
      i select lightdm for simple display... gdm3 show display like full kali.. you can choose what you like.. hit enter
